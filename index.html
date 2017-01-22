@@ -1,0 +1,25 @@
+<html>
+<head>
+    <link href="./../css/vConnect.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./../js/vConnect.js"></script>
+</head>
+<body>
+    <div>
+        <form name="form1">
+                <div id="postAreaOuterDiv">
+                    <textarea id="textArea" rows="1" cols="60" title="Say something, Dude?" placeholder="Say something, Dude?" onkeyup="autoGrow(this);" onfocus="resizeOnFocus(this);"></textarea>
+                    <div id="postButtonOuterDiv">
+                        <a href="#"><img class="tagImage" src="./../images/sample.gif"></a>
+                        <a href="#"><img class="tagImage" src="./../images/sample.gif"></a>
+                        <a href="#"><img class="tagImage" src="./../images/sample.gif"></a>
+                        <a href="#"><img class="tagImage" src="./../images/sample.gif"></a>
+                        <input type="button" value="Post" id="postButton" onclick="addPost();"/>
+                    </div>
+                </div>
+        </form>
+        <div id="contentArea">
+        
+        </div>
+    </div>
+</body>
+</html>
